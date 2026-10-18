@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Untuk bocill ✨</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio src="lagu.mp3" id="lagu" preload="auto"></audio>
+  
+  <div class="bg">
+    <div id="page1" class="glass-container">
+      <img src="img/pesan.png" alt="Pesan" class="img-pesan" onclick="pindah(2)">
+      <p class="teks">Mau buka pesannya?</p>
+      <button class="btn-utama" onclick="pindah(2)">Buka ✨</button>
+    </div>
+
+    <div id="page2" class="glass-container hidden">
+      <img src="img/kaku.webp" alt="Kaku" class="img-display">
+      <p class="teks">Apakah benar ini dengan bocil fitri???</p>
+      <div class="opsi-col">
+        <button class="btn-opsi" onclick="pindah(3)">Iyaa.. aku bocil</button>
+        <button class="btn-opsi" onclick="pindah(4)">Aku bukan bocil</button>
+      </div>
+    </div>
+
+    <div id="page3" class="glass-container hidden">
+      <img src="img/gabut.webp" alt="Gabut" class="img-display">
+      <div class="scroll-teks">
+        <p>Halo bocil selamat ulang tahun yaa 🌻✨<br><br>
+        Semoga di hari yang baik ini dan seterusnya bakal jadi hari yang menyenangkan yaa<br><br>
+        dipermudahkan segala urusannya, dilancarkan kerjaan nya, diberikan kesehatan, dan didekatkan dengan orang-orang yang selalu baik<br><br>
+        aku berharap semoga bocil semakin dewasa semakin happy ya, lebih banyak ketawa daripada sedih, lebih banyak senyum daripada nangis, jadi pribadi yang lebih baik trus pokoknya💪<br><br>
+        Sukses terus bocil🚀</p>
+      </div>
+      <button class="btn-utama" onclick="pindah(1)">Kembali 🔄</button>
+    </div>
+
+    <div id="page4" class="glass-container hidden">
+      <img src="img/matung.webp" alt="Matung" class="img-display">
+      <p class="teks">Eh... ini beneran bukan bocil???</p>
+      <div class="opsi-col">
+        <button class="btn-opsi" onclick="pindah(3)">Hehe iya aku bocil</button>
+        <button class="btn-opsi" onclick="pindah(5)">Serius aku bukan bocil</button>
+      </div>
+    </div>
+
+    <div id="page5" class="glass-container hidden">
+      <img src="img/motor.png" alt="Motor" class="img-display">
+      <p class="teks">hmmm.. maap salah sambung yaaa</p>
+      <button class="btn-utama" onclick="pindah(6)">Kembali 🔄</button>
+    </div>
+
+    <div id="page6" class="glass-container hidden">
+      <img src="img/hpJatuh.gif" alt="HP Jatuh" class="img-display">
+      <p class="teks">Ngapain kembali... katanya bukan bocil huuu ngeselin emang...</p>
+      <div class="opsi-col">
+        <button class="btn-opsi" onclick="pindah(1)">Maaf aku boong 😢</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
